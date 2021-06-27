@@ -1,0 +1,7 @@
+$nomention
+$argsCheck[>1;Use: {seu perfixo}playstore {nome} | {autor}]
+
+$title[📱NOVO APLICATIVO LANÇADO!]
+$image[https://api.cool-img-api.ml/play-store?image=$authorAvatar&text=$replaceText[$splitText[1]; ;+;-1]&author=$replaceText[$splitText[2]; ;+;-1]]
+$textSplit[$message;|]
+$color[#581845]
